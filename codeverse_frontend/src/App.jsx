@@ -1,13 +1,10 @@
 import React from "react";
-import Home from "./components/pages/Home";
-import { Person } from "@mui/icons-material";
+import Home from "./pages/home/Home";
 
 function App() {
   return (
     <>
-      <Person />
       <Home />
-      <div>this is app</div>
     </>
   );
 }
